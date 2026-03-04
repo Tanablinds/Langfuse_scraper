@@ -31,19 +31,13 @@ LANGFUSE_SECRET_KEY = " add secret key here "
 # with the exact dataset and run names printed by discover()
 # ============================================================
 EXPORTS = {
-    "safa_2a": {
-        "dataset": "Copy of question_2a",
-        "run": "Prompt SAFA-v2 on dataset Copy of question_2a - 2026-03-02T06:10:08.809Z",
+    "name": {
+      # add name of dataset here
+        "dataset": " ",
+      # add name of evaluation run here
+        "run": " ",
     },
-    "markly_2a": {
-        "dataset": "Copy of question_2a",
-        "run": "Prompt markly_ai_service_v2-v4 on dataset Copy of question_2a - 2026-03-02T05:54:48.444Z",
-    },
-    "safa_2b": {
-        "dataset": "Copy of question_2b",
-        "run": "Prompt SAFA-q2b-v2 on dataset Copy of question_2b - 2026-03-02T08:29:37.859Z",
-    },
-    "markly_2b": {
+    "name": {
         "dataset": "Copy of question_2b",
         "run": "Prompt markly_ai_service_v2_q2b-v2 on dataset Copy of question_2b - 2026-03-02T08:13:01.032Z",
     },
