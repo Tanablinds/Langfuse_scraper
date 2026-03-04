@@ -263,13 +263,14 @@ def export_run(label, dataset_name, run_name):
 
     print(f"\nSaved {len(entries)} entries to {filename}")
 
-    # Print sample
+# Print sample
     if entries:
         e = entries[0]
         print(f"\nSample entry (row 1):")
         inp = e["input"]
         out = e["output"]
         print(f"  Input keys: {list(inp.keys()) if isinstance(inp, dict) else type(inp)}")
+        print(f"  Input content:\n{json.dumps(inp, indent=2)}")
         print(f"  Output keys: {list(out.keys()) if isinstance(out, dict) else type(out)}")
         print(f"  Eval scores: {e['eval_scores']}")
 
